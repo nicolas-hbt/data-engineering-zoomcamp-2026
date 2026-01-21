@@ -1,7 +1,6 @@
-# --- Secrets ---
-02-workflow-orchestration/service-account.json
-.env*
+# Key files
 02-workflow-orchestration/.env_encoded
+02-workflow-orchestration/service-account.json
 
 # --- Kestra / Docker ---
 .kestra/
