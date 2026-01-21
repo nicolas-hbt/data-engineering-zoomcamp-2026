@@ -1,3 +1,30 @@
+# --- Secrets ---
+02-workflow-orchestration/service-account.json
+.env*
+02-workflow-orchestration/.env_encoded
+
+# --- Kestra / Docker ---
+.kestra/
+docker-compose.override.yml
+
+# --- Terraform (Infrastructure) ---
+.terraform/
+*.tfstate
+*.tfstate.backup
+.terraform.lock.hcl
+
+# --- dbt (Data Build Tool) ---
+target/
+dbt_packages/
+logs/
+
+# --- Python / Streamlit ---
+__pycache__/
+*.pyc
+.streamlit/secrets.toml
+venv/
+.venv/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
@@ -205,3 +232,5 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+01-docker-terraform/ny_taxi_postgres_data
