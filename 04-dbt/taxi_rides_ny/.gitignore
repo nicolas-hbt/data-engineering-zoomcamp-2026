@@ -1,0 +1,33 @@
+# dbt artifacts
+target/
+dbt_packages/
+logs/
+
+# Data files
+data/
+*.csv
+*.parquet
+*.json
+*.duckdb
+*.db
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+dbt-env/
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+.env
