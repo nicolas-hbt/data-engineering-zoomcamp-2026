@@ -23,7 +23,7 @@ depends:
 
 # TODO: Choose time-based incremental processing if the dataset is naturally time-windowed.
 # - This module expects you to use `time_interval` to reprocess only the requested window.
-materialization: time_interval
+materialization:
   # What is materialization?
   # Materialization tells Bruin how to turn your SELECT query into a persisted dataset.
   # Docs: https://getbruin.com/docs/bruin/assets/materialization
