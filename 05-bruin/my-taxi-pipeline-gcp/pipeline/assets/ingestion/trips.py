@@ -13,7 +13,7 @@ type: python
 image: python:3.11
 
 # TODO: Set the connection.
-connection: duckdb-default
+connection: gcp-default
 
 # TODO: Choose materialization (optional, but recommended).
 # Bruin feature: Python materialization lets you return a DataFrame (or list[dict]) and Bruin loads it into your destination.
